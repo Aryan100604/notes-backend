@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://notes-frontend-seven-psi.vercel.app/",
+    origin: "https://notes-frontend-seven-psi.vercel.app",
     methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
     credentials: true,
   })
