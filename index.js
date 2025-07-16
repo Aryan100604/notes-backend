@@ -21,7 +21,6 @@ app.use(
     credentials: true,
   })
 );
-app.options("*", cors());
 app.use("/api/users", userRouter);
 app.use("/api/notes", noteRouter);
 mongoose
